@@ -17,7 +17,7 @@ my_catalog = my_cur.fetchall()
 df = pd.DataFrame(my_catalog)
 
 # temp write the dataframe to the page so I Can see what I am working with
-streamlit.write(df)
+# streamlit.write(df)
 
 
 # put the first column into a list
